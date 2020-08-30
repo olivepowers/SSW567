@@ -42,11 +42,11 @@ class TestClassifyTriangle(unittest.TestCase):
         self.assertEqual(classify_triangle(6, 8, 10),'Right','6, 8, 10 is a Right triangle')
         self.assertEqual(classify_triangle(12, 16, 20),'Right','12, 16, 20 is a Right triangle')
     def testNoTriangle(self):
-        self.assertEqual(classify_triangle(3, 3, 20),'Not a Triangle','3, 4, 5 is a Not a Triangle Triangle')
+        self.assertEqual(classify_triangle(3, 3, 20),'Not a Triangle','3, 4, 5 is a Not a Triangle')
         self.assertNotEqual(classify_triangle(8, 15, 17),'Not a Triangle','5, 7, 30 is Right Triangle')
-        self.assertEqual(classify_triangle(15, 14, 49),'Not a Triangle','6, 8, 10 is a Not a Triangle triangle')
-        self.assertEqual(classify_triangle(49, 50, 1000),'Not a Triangle','12, 16, 20 is a Not a Triangle triangle')
+        self.assertEqual(classify_triangle(15, 14, 49),'Not a Triangle','6, 8, 10 is a Not a Triangle')
+        self.assertEqual(classify_triangle(49, 50, 1000),'Not a Triangle','12, 16, 20 is a Not a Triangle')
 
 
 if __name__ == '__main__':
-    unittest.main(exit  = False)
+    unittest.main()
