@@ -1,0 +1,16 @@
+# Deliverable 3: Assignment Experience
+
+
+### What challenges did you encounter with this assignment, if any? 
+For this assignment, the biggest challenge for me was navigating creating a solution that had some bugs, but not too many, and how to create robust tests. I wanted to highlight how there was not clear cut instructions on how to handle multiple classifications as well as invalid triangles, but I also was not sure  how much should and can be inferred. Aditionally, I tested each triangle classification within my unit testing, and various values within each triangle. With my unit testing, however, I wished I could make my solution more precise throughout the testing phase but I was not sure how to communicate that.
+
+### What did you think about the requirements specification for this assignment?
+There were very few requirements within this assignment to give us the freedom to play around with bugs and understand how clear cut requirements would have led to a more precise solution.
+I found it would have been useful to receive instruction on how to handle classification of the triangle when multiple classifications can apply. For example, all right triangles are either scalene or isosceles triangles as well. A given requirement on how to go about identifying triangles that meet multiple classifications would have been useful to meet the users requirements. Additionally, it would have been useful to recieve requirements on how to handle extraneous numbers (such as 0 and negative numbers) as well as numbers that were not provided in the correct order (smallest to largest, a to c). If c was not filled in as the largest number requirements should be provided on how to handle the situation, such as rearranging the numbers within the function or prompting the user to re-enter the numbers.
+Finally, requirements were not provided on how to handle invalid triangles. A more succesful solution would be produced if instructions were given on how to identify and alert the user to invalid triangles. Without these requirements I simply highlighted when a triangle was invalid, however this may not be what the user had in mine.
+
+### What challenges did you encounter with the tools?
+The biggest challenge I encountered with the tools was getting familiar with Pyhton unittest. I had some experience doing unit testing in CS 115 but the test cases were usually provided to us. Given the extensive resources provided online I was able to pick it up relatively easily.
+
+### Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+To determine I had sufficient test cases I made sure to highlight values that were correct and incorrect and what the output would be. For the values that were correct I selected about 4 values for each triangle classification and tested what triangle classification was output. I utlized assetEqual to test these classifications. Additionally, within each test classification and its own test classification I saw how my solution responded to invalid values, using assertNotEqual. I felt this was sufficient given I assessed how the solution handled valid and invalid numbers as well as provided depth with multiple values getting tested for each classification.
