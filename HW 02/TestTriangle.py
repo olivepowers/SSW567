@@ -65,7 +65,7 @@ class TestTriangles(unittest.TestCase):
     def testScaleneTriangle3(self):
         self.assertEqual(classifyTriangle(130,187,200),'Scalene','137,187,200 is a scalene triangle')
 
-    def 1(self):
+    def testInvalidInput1(self):
         self.assertEqual(classifyTriangle(-3,3,4),'InvalidInput','-3,3,4 is an invalid input')
 
     def testInvalidInput2(self):
@@ -94,6 +94,9 @@ class TestTriangles(unittest.TestCase):
 
     def testInvalidInput10(self):
         self.assertEqual(classifyTriangle(385, 385, 385),'InvalidInput','385,385,385 is an invalid input')
+    
+    def testInvalidInput11(self):
+        self.assertEqual(classifyTriangle(3.5, 3.5, 3.5),'InvalidInput','385,385,385 is an invalid input')
     
     def testNotATriangle1(self):
         self.assertEqual(classifyTriangle(30, 70, 150), 'NotATriangle', '30, 70, 150 is not a triangle')
