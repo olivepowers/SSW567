@@ -8,7 +8,7 @@ Sometimes you will be given a program that someone else has written, and you wil
 
 * Files: 
     * [Triangle.py](https://github.com/olivepowers/SSW567/blob/master/HW%2002/Triangle.py)
-    * [TestTriangle.py] (https://github.com/olivepowers/SSW567/blob/master/HW%2002/TestTriangle.py)
+    * [TestTriangle.py](https://github.com/olivepowers/SSW567/blob/master/HW%2002/TestTriangle.py)
 
 In order to determine if the program is correctly implemented, you will need to update the set of test cases in the test program.  You will need to update the test program until you feel that your tests adequately test all of the conditions.   Then you should run the complete set of tests against the original triangle program to see how correct the triangle program is.    Capture and then report on those results in a formal test report described below.   For this first part you should not make any changes to the classify triangle program.  You should only change the test program.
 
