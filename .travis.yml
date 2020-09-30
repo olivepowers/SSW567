@@ -6,3 +6,6 @@ python:
 script:
  - cd "HW 02"
  - python -m unittest TestTriangle
+ - cd ..
+ - cd "HW 04a"
+ - python -m unittest HW04aTest
