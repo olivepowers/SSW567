@@ -7,8 +7,8 @@ install:
 
 # command to run tests
 script:
- - cd "HW 02"
+ - cd "HW02"
  - python -m unittest TestTriangle
  - cd ..
- - cd "HW 04a"
+ - cd "HW04a"
  - python -m unittest HW04aTest
